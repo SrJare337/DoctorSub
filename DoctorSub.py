@@ -111,7 +111,7 @@ def enumerate_subdomains(domain):
 
 def print_credits():
     styled_print('\nFerramenta desenvolvida por SrJare337', Fore.RED, bold=True)
-    styled_print('Versão: V1.0', Fore.RED, bold=True)
+    styled_print('Versão: V1.1', Fore.RED, bold=True)
 
 def print_intro():
     border_length = 60
