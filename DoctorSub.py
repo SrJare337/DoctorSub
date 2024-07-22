@@ -154,7 +154,7 @@ def print_intro():
 
 if __name__ == "__main__":
     print_intro()
-    domain = input(Fore.CYAN + "Digite o domínio para verificar (exemplo.com): " + Style.RESET_ALL).strip()
+    domain = input(Fore.CYAN + "Digite o domínio para (exemplo.com): " + Style.RESET_ALL).strip()
 
     enumerate_subdomains(domain)
     print_credits()
